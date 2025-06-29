@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Lab6 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Find which position in the Fibonacci Sequence? ");
+        int n = scanner.nextInt();
+
+        FindFib iter = new FibIteration();
+        FindFib formula = new FibFormula();
+
+        System.out.println("Fib of " + n + " using iteration is " + iter.calculateFib(n));
+        System.out.println("Fib of " + n + " using Binet's Formula is " + formula.calculateFib(n));
+        System.out.println("Program complete.");
+    }
+}
