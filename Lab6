@@ -1,3 +1,5 @@
+// note: I'm using github because intellij doesn't work on my computer
+
 import java.util.Scanner;
 
 public class Lab6 {
